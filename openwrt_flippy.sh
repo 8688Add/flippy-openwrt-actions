@@ -21,15 +21,15 @@ sudo apt-get update && sudo apt-get install -y p7zip p7zip-full zip unzip gzip x
 MAKE_PATH=${PWD}
 PACKAGE_OPENWRT=("vplus" "beikeyun" "l1pro" "s905" "s905d" "s905x2" "s905x3" "s912" "s922x" "s922x-n2" "diy")
 SELECT_ARMBIANKERNEL=("5.10.80" "5.4.160")
-SCRIPT_REPO_URL_VALUE="https://github.com/unifreq/openwrt_packit"
+SCRIPT_REPO_URL_VALUE="https://github.com/8688Add/openwrt_packit"
 SCRIPT_REPO_BRANCH_VALUE="master"
-KERNEL_REPO_URL_VALUE="https://github.com/breakings/OpenWrt/tree/main/opt/kernel"
+KERNEL_REPO_URL_VALUE="https://github.com/0118Add/kernel_N1/tree/main/kernel"
 # KERNEL_REPO_URL_VALUE URL supported format:
 # KERNEL_REPO_URL_VALUE="https://github.com/breakings/OpenWrt/trunk/opt/kernel"
 # KERNEL_REPO_URL_VALUE="https://github.com/breakings/OpenWrt/tree/main/opt/kernel"
 KERNEL_VERSION_NAME_VALUE="5.10.80_5.4.160"
 KERNEL_AUTO_LATEST_VALUE="true"
-PACKAGE_SOC_VALUE="s905d_s905x3_beikeyun"
+PACKAGE_SOC_VALUE="s905d_s905x3"
 GZIP_IMGS_VALUE="auto"
 # Set the working directory under /opt
 SELECT_PACKITPATH_VALUE="openwrt_packit"
@@ -50,7 +50,7 @@ SCRIPT_S922X_N2_FILE="mk_s922x_odroid-n2.sh"
 SCRIPT_DIY_FILE="mk_diy.sh"
 
 # Set make.env related parameters
-WHOAMI_VALUE="flippy"
+WHOAMI_VALUE="BGG"
 OPENWRT_VER_VALUE="auto"
 SW_FLOWOFFLOAD_VALUE="1"
 HW_FLOWOFFLOAD_VALUE="0"
